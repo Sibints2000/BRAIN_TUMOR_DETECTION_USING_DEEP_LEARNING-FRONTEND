@@ -41,7 +41,7 @@ h1 {
     padding-top: 9rem;
 }
 
-.primary_heading{
+.secondary_heading{
     text-align: center;
     padding-bottom: 2rem;
     text-shadow: var(--text-shadow);
@@ -52,30 +52,34 @@ h1 {
     padding-top: 8rem;
 }
 
-.primary_heading span{
+.secondary_heading span{
     text-transform: uppercase;
     color: var(--green);
 }
 
-.primary .primary_main{
+.secondary .secondary_main{
     /* display: flex; */
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
 }
 
-.primary .primary_main .image{
+.secondary .secondary_main .image{
     flex: 1 1 45rem;
 }
 
-.primary .primary_main .image img {
-    width: 50%;
-    float: left;
+/* .secondary .secondary_main .sec_tum1{
+    padding-right: 5rem;
+} */
+
+.secondary .secondary_main .image img {
+    width: 60%;
+    float: right;
     height: 50%;
-    padding: 0 10px 0 0;
+    padding: 0 10px 0 15rem;
 }
 
-.primary .primary_main h3{
+.secondary .secondary_main h3{
     color: var(--black);
     text-shadow: var(--text-shadow);
     font-size: 3.5rem;
@@ -84,7 +88,7 @@ h1 {
     padding-top: 1rem;
 }
 
-.primary .primary_main p{
+.secondary .secondary_main p{
     color: var(--light-color);
     padding: 3rem 0 5rem 0 ;
     font-size: 1.5rem;
@@ -93,34 +97,35 @@ h1 {
     margin-left: 3rem;
 }
 
-.primary .primary_main .image_symptoms img {
+.secondary .secondary_main .image_symptoms img {
     width: 40%;
     float: right;
     height: 50%;
     padding: 8rem 0.625rem 0 0;
 }
 
-.primary .primary_main .heading_symptoms{
-    padding-top: 10rem;
+.secondary .secondary_main .heading_symptoms{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
-.primary .primary_main .image_cure img{
+.secondary .secondary_main .image_cure img{
     width: 40%;
-    float: right;
+    float: left;
     height: 50%;
     padding: 3rem 0.625rem 0 0;
-    padding-left: 7rem;
+    padding-right: 9rem;
 }
 
-.primary .primary_main .cure_heading{
+.secondary .secondary_main .cure_heading{
     padding-top: 5rem;
 }
 
-.primary .primary_main .cure_heading h3 {
+.secondary .secondary_main .cure_heading h3 {
     padding-top: 1rem;
 }
 
-.primary .primary_main .types_div p {
+.secondary .secondary_main .types_div p {
     color: var(--light-color);
     padding: 0 0 1rem 0 ;
     font-size: 1.5rem;
@@ -129,11 +134,11 @@ h1 {
     margin-left: 3rem;
 }
 
-.primary .primary_main .types_div ul {
+.secondary .secondary_main .types_div ul {
     list-style-type: none;
 }
 
-.primary .primary_main .types_div ul li {
+.secondary .secondary_main .types_div ul li {
     color: var(--light-color);
     padding: 0 0 0 5rem;
     font-size: 1.5rem;
@@ -143,7 +148,7 @@ h1 {
 
 }
 
-.primary .primary_main .types_div h2{
+.secondary .secondary_main .types_div h2{
     color: #16a085;
     font-size: 2.2rem;
     padding-bottom: 1rem;
